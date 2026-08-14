@@ -1,0 +1,9 @@
+[submodule "plugins"]
+	path = plugins
+	url = https://github.com/Zewang0217/myloop-plugins.git
+[submodule "core"]
+	path = core
+	url = https://github.com/Zewang0217/myLoop.git
+[submodule "dsh"]
+	path = dsh
+	url = https://github.com/Zewang0217/deepseek-harness.git
