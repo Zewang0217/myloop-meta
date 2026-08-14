@@ -26,6 +26,13 @@ happens at the original absolute paths the configs hard-code:
 This meta repo exists for version locking and one-command reproduction only;
 do not build here.
 
+**New-machine setup** (clones all three + installs profile + applies the dsh
+patch, idempotent):
+
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/Zewang0217/myloop-plugins/master/scripts/bootstrap.sh)
+```
+
 ## dsh fix (upstream PR in progress)
 
 `plugins/patches/dsh-translate-empty-string-toolcall.patch` records the
